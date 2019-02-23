@@ -4,6 +4,11 @@ import router from './router'
 import store from './store'
 import './css/common.css'
 
+//导入element-ui
+import ElementUI from 'element-ui'
+import '../node_modules/element-ui/lib/theme-chalk/index.css'
+Vue.use(ElementUI)
+
 Vue.config.productionTip = false
 
 new Vue({
